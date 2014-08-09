@@ -1,0 +1,56 @@
+.yweather {
+   position: relative;
+   width: 250px;
+   height: 180px;
+}
+.yweather div {
+   position: absolute;
+}
+.yweather .yweather_icon {
+   height: 130px;
+   width: 250px;
+   background: url();
+}
+.yweather .yweather_bg {
+   height: 67px;
+   width: 190px;
+/*   background: url(http://us.i1.yimg.com/us.yimg.com/i/us/nws/weather/wdgt_day.png);*/
+   left: 40px;
+   top: 45px;
+   text-shadow: 0 -1px 1px #315895;
+}
+.yweather .yweather_bg.day {
+   background: url(http://us.i1.yimg.com/us.yimg.com/i/us/nws/weather/wdgt_day.png);
+}
+.yweather .yweather_bg.night {
+   background: url(http://us.i1.yimg.com/us.yimg.com/i/us/nws/weather/wdgt_night.png);
+}
+
+.yweather .yweather_h3 {
+   float: right;
+   margin: 5px 5px 0 0;
+   color: #fff;
+   font-size: 34px;
+   font-weight: bold;
+}
+.yweather .yweather_p {
+   clear: right;
+   text-align: right;
+   color: #fff;
+   font-size: 11px;
+   margin: 0 5px 0 0;
+}
+
+.yweather .yweather_link {
+   position: absolute;
+   right: 25px;
+   top: 33px;
+   font-size: 10px;
+}
+.yweather .yweather_link a {
+   text-decoration: none;
+   color: #16387C;
+}
+.yweather .yweather_link a:visited {
+   color: #69789C;
+}
